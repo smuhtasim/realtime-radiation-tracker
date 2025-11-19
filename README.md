@@ -2,6 +2,7 @@
 
 Small end-to-end project that ingests, processes and visualizes radiation measurements.  
 This repository contains a frontend (Vite + React + Tailwind), a backend API (Flask), a data producer, an optional PyFlink processing job, and helper scripts/datasets.
+![Uploading Screenshot 2025-11-19 140333.png…]()
 
 ## Contents
 - Architecture overview
