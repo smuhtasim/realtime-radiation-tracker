@@ -44,12 +44,6 @@ docker-compose down
 - PyFlink:
   - See pyflink_job/README or pyflink_job/job.py for execution steps and required jars.
 
-## API (example)
-- Check backend/app.py for implemented endpoints.
-- Useful curl example (adjust host/port):
-  ```sh
-  curl -X POST http://localhost:8000/measurements -H "Content-Type: application/json" -d '{"sensor_id":"s1","value":0.12,"ts":"2025-11-19T12:00:00Z"}'
-  ```
 
 ## Key files & folders
 - docker-compose.yml — service orchestration
