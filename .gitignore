@@ -1,0 +1,16 @@
+# User configuration
+User/
+.zshrc
+
+# Log files
+kafka/logs/
+*.log
+*.log.*
+
+# Project-specific
+data/
+venv/
+__pycache__/
+*.pyc
+/dataset/measurements-out.csv
+/dataset/measurements_all.parquet
